@@ -1,0 +1,11 @@
+# Never upload secrets; set GROQ_API_KEY in the Vercel dashboard instead.
+.env
+.env.local
+*.env
+# Not needed online
+server.js
+server.log
+server.pid
+autostart/
+reference-*.html
+instructions*.md

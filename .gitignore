@@ -1,0 +1,16 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# Runtime files
+server.log
+server.pid
+
+# Dependencies / OS / editor
+node_modules/
+.vercel/
+.DS_Store
+Thumbs.db
